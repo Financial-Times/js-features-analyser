@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: npm cit
-      - run: npx semantic-commitlint -- --ci
+      - run: npx @commitlint/cli --from=origin/master --to=HEAD --verbose
   publish_to_npm:
     docker:
       - image: circleci/node:10

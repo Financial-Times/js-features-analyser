@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/git": "^7.0.16",
     "babel-plugin-tester": "^6.4.0",
@@ -22,13 +21,7 @@
     "globby": "^10.0.1",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
-    "semantic-commitlint": "^1.3.2",
     "semantic-release": "^15.13.18"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   },
   "version": "0.1.0",
   "dependencies": {
@@ -46,9 +39,6 @@
     }
   },
   "release": {
-    "verifyRelease": [
-      "semantic-commitlint"
-    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
