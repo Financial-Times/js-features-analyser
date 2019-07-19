@@ -1,5 +1,6 @@
 [
     "Uint16Array.prototype.includes",
-    "Uint16Array.prototype",
+    "Array.prototype.includes",
+    "String.prototype.includes",
     "Uint16Array"
 ]
