@@ -572,7 +572,48 @@ const methods = {
     toString: "Function.prototype.toString",
     "@@hasInstance": "Function.prototype[@@hasInstance]",
   },
-};
+  abortController: {
+    signal: "AbortController.prototype.signal",
+    abort: "AbortController.prototype.abort",
+  },
+  abortSignal: {
+    aborted: "AbortSignal.prototype.aborted",
+    onabort: "AbortSignal.prototype.onabort",
+  },
+  documentFragment: {
+    append: "DocumentFragment.prototype.append",
+    prepend: "DocumentFragment.prototype.prepend",
+  },
+  domTokenList: {
+    "@@iterator": "DOMTokenList.prototype[@@iterator]",
+  },
+  element: {
+    after: "Element.prototype.after",
+    append: "Element.prototype.append",
+    before: "Element.prototype.before",
+    classList: "Element.prototype.classList",
+    cloneNode: "Element.prototype.cloneNode",
+    closest: "Element.prototype.closest",
+    dataset: "Element.prototype.dataset",
+    inert: "Element.prototype.inert",
+    matches: "Element.prototype.matches",
+    placeholder: "Element.prototype.placeholder",
+    prepend: "Element.prototype.prepend",
+    remove: "Element.prototype.remove",
+    replaceWith: "Element.prototype.replaceWith",
+    toggleAttribute: "Element.prototype.toggleAttribute",
+  },
+  htmlCanvasElement: {
+    toBlob: "HTMLCanvasElement.prototype.toBlob",
+  },
+  node: {
+    contains: "Node.prototype.contains",
+  },
+  nodeList: {
+    forEach: 'NodeList.prototype.forEach',
+    "@@iterator": 'NodeList.prototype[@@iterator',
+  },
+}
 
 function has(obj, key) {
   return Object.prototype.hasOwnProperty.call(obj, key);

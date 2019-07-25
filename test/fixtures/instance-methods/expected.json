@@ -160,6 +160,7 @@
     "Array.prototype.forEach",
     "Map.prototype.forEach",
     "Set.prototype.forEach",
+    "NodeList.prototype.forEach",
     "Int8Array.prototype.includes",
     "Uint8Array.prototype.includes",
     "Uint8ClampedArray.prototype.includes",
