@@ -1,4 +1,19 @@
 [
     "Object.entries",
+    "AudioParamMap.prototype.entries",
+    "CSSNumericArray.prototype.entries",
+    "CSSTransformValue.prototype.entries",
+    "CSSUnparsedValue.prototype.entries",
+    "DOMTokenList.prototype.entries",
+    "FormData.prototype.entries",
+    "Headers.prototype.entries",
+    "KeyboardLayoutMap.prototype.entries",
+    "MediaKeyStatusMap.prototype.entries",
+    "MIDIInputMap.prototype.entries",
+    "MIDIOutputMap.prototype.entries",
+    "NodeList.prototype.entries",
+    "RTCStatsReport.prototype.entries",
+    "StylePropertyMapReadOnly.prototype.entries",
+    "URLSearchParams.prototype.entries",
     "Object"
 ]

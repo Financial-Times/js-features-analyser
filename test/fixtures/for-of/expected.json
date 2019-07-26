@@ -1,7 +1,7 @@
 [
-        "Symbol",
-        "Symbol.iterator",
-        "Array.prototype[@@iterator]",
-        "Array",
-        "Number"
+    "Symbol",
+    "Symbol.iterator",
+    "Array.prototype[@@iterator]",
+    "Array",
+    "Number"
 ]

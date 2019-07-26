@@ -1,5 +1,17 @@
 [
+    "BigInt.prototype.toString",
+    "CSSStyleValue.prototype.toString",
+    "CSSTransformComponent.prototype.toString",
+    "DOMMatrixReadOnly.prototype.toString",
+    "DOMTokenList.prototype.toString",
+    "HTMLAnchorElement.prototype.toString",
+    "HTMLAreaElement.prototype.toString",
+    "MediaList.prototype.toString",
     "Object.prototype.toString",
+    "Range.prototype.toString",
+    "Selection.prototype.toString",
+    "URL.prototype.toString",
+    "URLSearchParams.prototype.toString",
     "Object",
     "undefined"
 ]

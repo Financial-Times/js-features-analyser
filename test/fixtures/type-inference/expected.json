@@ -1,5 +1,6 @@
 [
     "Function",
+    "IDBKeyRange.prototype.includes",
     "Uint16Array.prototype.includes",
     "Uint16Array",
     "Number"

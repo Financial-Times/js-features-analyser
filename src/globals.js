@@ -7,8 +7,7 @@ function keyMirror(keys) {
   );
 }
 
-const builtinGlobals = Object.keys(require('globals').builtin);
-const browserGlobals = Object.keys(require('globals').browser);
+const browserGlobals = require('./global-static-instance.json').globals;
 const extraGlobals = ["clearImmediate", "setImmediate"];
 
-module.exports = keyMirror([].concat(builtinGlobals, browserGlobals, extraGlobals));
+module.exports = keyMirror([].concat(browserGlobals, extraGlobals));
