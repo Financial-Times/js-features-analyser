@@ -3,7 +3,7 @@
 A Node.js command-line application for figuring out what standard-library features are being used within a JavaScript file.
 
 [![NPM version](https://img.shields.io/npm/v/@financial-times/js-features-analyser.svg)](https://www.npmjs.com/package/@financial-times/js-features-analyser)
-[![Build status](https://img.shields.io/circleci/build/gh/JakeChampion/js-features-analyser.svg)](https://circleci.com/gh/JakeChampion/js-features-analyser)
+[![Build status](https://img.shields.io/circleci/build/gh/Financial-Times/js-features-analyser.svg)](https://circleci.com/gh/Financial-Times/js-features-analyser)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 ```bash
@@ -65,7 +65,7 @@ This software is under the [MIT licence][license].
 
 
 
-[issues]: https://github.com/Financial-Times/origami-repo-data-client-node/issues
+[issues]: https://github.com/Financial-Times/js-features-analyser/issues
 [license]: http://opensource.org/licenses/MIT
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
