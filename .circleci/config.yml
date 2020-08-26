@@ -7,14 +7,6 @@ jobs:
     steps:
       - checkout
       - run: npm cit
-      - run: npx @commitlint/cli --from=origin/master --to=HEAD --verbose
-  publish_to_npm:
-    docker:
-      - image: circleci/node:10
-    steps:
-      - checkout
-      - run: npm cit
-      - run: npm run semantic-release
   
 workflows:
   test:
@@ -23,7 +15,3 @@ workflows:
           filters:
             branches:
               ignore: master
-      - publish_to_npm:
-          filters:
-            branches:
-              only: master
