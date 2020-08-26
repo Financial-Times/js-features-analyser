@@ -2,24 +2,16 @@
   "name": "@financial-times/js-features-analyser",
   "bin": "./index.js",
   "scripts": {
-    "commit": "git-cz",
     "fix": "eslint . --fix",
     "lint": "eslint .",
-    "test": "npm run lint && jest test/index.test.js",
-    "semantic-release": "semantic-release"
+    "test": "npm run lint && jest test/index.test.js"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
     "babel-plugin-tester": "^6.4.0",
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.1.0",
     "globby": "^10.0.1",
     "jest": "^24.8.0",
-    "rimraf": "^2.6.3",
-    "semantic-release": "^15.13.18"
+    "rimraf": "^2.6.3"
   },
   "version": "0.4.1",
   "dependencies": {
@@ -28,44 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JakeChampion/js-features-analyser.git"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      "@semantic-release/github"
-    ],
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      {
-        "path": "@semantic-release/git",
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
-      }
-    ]
+    "url": "git+https://github.com/Financial-Times/js-features-analyser.git"
   },
   "description": "## How to use",
   "bugs": {
-    "url": "https://github.com/JakeChampion/js-features-analyser/issues"
+    "url": "https://github.com/Financial-Times/js-features-analyser/issues"
   },
-  "homepage": "https://github.com/JakeChampion/js-features-analyser#readme",
+  "homepage": "https://github.com/Financial-Times/js-features-analyser#readme",
   "author": "Jake Champion",
   "license": "MIT"
 }
