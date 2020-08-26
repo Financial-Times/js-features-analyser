@@ -1,0 +1,12 @@
+{
+    "description": "A Node.js command-line application for figuring out what standard-library features are being used within a JavaScript file.",
+    "origamiType": "cli",
+    "origamiVersion": 1,
+    "keywords": [],
+    "support": "https://github.com/Financial-Times/js-features-analyser/issues",
+    "supportStatus": "maintained",
+    "supportContact": {
+        "email": "origami.support@ft.com",
+        "slack": "financialtimes/origami-support"
+    }
+}
