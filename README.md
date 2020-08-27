@@ -3,7 +3,6 @@
 A Node.js command-line application for figuring out what standard-library features are being used within a JavaScript file.
 
 [![NPM version](https://img.shields.io/npm/v/@financial-times/js-features-analyser.svg)](https://www.npmjs.com/package/@financial-times/js-features-analyser)
-[![Build status](https://img.shields.io/circleci/build/gh/Financial-Times/js-features-analyser.svg)](https://circleci.com/gh/Financial-Times/js-features-analyser)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 ```bash
