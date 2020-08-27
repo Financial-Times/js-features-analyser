@@ -7,7 +7,7 @@
     "test": "npm run lint && jest test/index.test.js"
   },
   "devDependencies": {
-    "babel-plugin-tester": "^6.4.0",
+    "babel-plugin-tester": "^7.0.3",
     "eslint": "^6.1.0",
     "globby": "^10.0.1",
     "jest": "^24.8.0",
