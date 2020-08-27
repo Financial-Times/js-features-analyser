@@ -1,9 +1,7 @@
 name: Node.js CI
-
-on:
-  push:
-  pull_request:
-
+on: [ pull_request ]
+env:
+  CI: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,5 +17,3 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-      env:
-        CI: true
