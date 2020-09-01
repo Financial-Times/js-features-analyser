@@ -10,7 +10,7 @@
     "babel-plugin-tester": "^7.0.3",
     "eslint": "^6.1.0",
     "globby": "^11.0.1",
-    "jest": "^24.8.0",
+    "jest": "^26.4.2",
     "rimraf": "^3.0.2"
   },
   "version": "0.4.1",
