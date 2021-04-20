@@ -16,7 +16,7 @@
   "version": "0.4.1",
   "dependencies": {
     "@babel/core": "^7.13.14",
-    "yargs": "^13.3.0"
+    "yargs": "^13.3.2"
   },
   "repository": {
     "type": "git",
