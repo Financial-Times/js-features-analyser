@@ -202,7 +202,7 @@ module.exports = function({ types: t }) {
       if (!t.isReferenced(obj, node)) return;
 
       // doesn't reference the global
-      if (path.scope.getBindingIdentifier(obj.name)) return;
+      if (obj !== null && path.scope.getBindingIdentifier(obj.name)) return;
 
       for (let prop of props) {
         prop = prop.key;

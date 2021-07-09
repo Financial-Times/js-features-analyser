@@ -1,8 +1,8 @@
-[
+[ 
+  "Array",
+  "Object",
+  "Number",
   "Symbol",
   "Symbol.iterator",
-  "Array.prototype[@@iterator]",
-  "Array",
-  "Number",
-  "Object"
+  "Array.prototype[@@iterator]"
 ]

@@ -1,3 +1,9 @@
-var a = [{ b: 2, c: 3 }];
-for (var { b: d, c: e } of a) { };
+var a = [{
+  o: 2,
+  p: 3
+}];
 
+for (var {
+  o: w,
+  p: z
+} of a) {}
